@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\DHT11 -I..\HARDWARE\TPAD -I..\USER -I..\HARDWARE\UltrasonicWave -I..\HARDWARE\TIMER -I..\HARDWARE\LCD -I..\HARDWARE\BEEP -I..\HARDWARE\hongwai -I..\HARDWARE\INCLINE -I..\HARDWARE\SHAKE -I..\HARDWARE\24CXX -I..\HARDWARE\REMOTE 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_iwdg.o" --omf_browse "..\OBJ\stm32f10x_iwdg.crf" --depend "..\OBJ\stm32f10x_iwdg.d" "..\STM32F10x_FWLib\src\stm32f10x_iwdg.c"
